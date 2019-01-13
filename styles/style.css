@@ -1,0 +1,44 @@
+body {
+  background-color: #009B7D;
+}
+
+nav {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#dateTime {
+  justify-self: end;
+}
+
+#searchBarLabel {
+  text-transform: uppercase;
+}
+
+#sites {
+  background-color: #e2eca9;
+}
+
+#sitePage1 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+#sitePage2 {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+
+#sitePage3 {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+}
+
+.siteItem {
+  display: block;
+}
+
