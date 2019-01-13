@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emerald Launcher</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="item1">
+          <form onsubmit="saveWebsite()">
+            <input type="text" id="websiteAddress" placeholder="Web Address To Save" required>
+            <input type="submit" value="Save">
+          </form>
+        </div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        <div id="dateTime"></div>
+      </nav>
+      <div id="searchBarLabel">Your Google search bar</div>
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        <input autocomplete="on" class="form-control search" name="q" placeholder="Search Google" required type="text">
+        <button class="button" type="submit">Search</button>
+      </form>
+    </header>
+    <main>
+      <div id="sites">
+        <div id="sitePage1"></div>
+        <div id="sitePage2"></div>
+        <div id="sitePage3"></div>
+      </div>
+      
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
